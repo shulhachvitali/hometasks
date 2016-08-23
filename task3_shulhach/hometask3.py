@@ -40,7 +40,7 @@ def log ():
     flog.write(str(j.__round__(2))+"mb recieved via all interfaces"+'\n')
     flog.write('\n')
     flog.close()
-log()
+
 def log2():
     global snapshotn
     snapshotn+=1
@@ -60,11 +60,14 @@ def log2():
     data = ['SNAPSHOT' + str(snapshotn) + ": " + str(timestamp) + ": ", snapshot]
     with open("log.json", "a") as f:
         json.dump(data, f, indent=3, sort_keys=True)
-log2()
 
-if output == 'txt':
+def shedule ():
+ global intervalt
+ if output == 'txt':
     schedule.every(int(intervalt)).seconds.do(log)
-elif output == 'json':
+ elif output == 'json':
     schedule.every(int(intervalt)).seconds.do(log2)
-while True:
+ while True:
     schedule.run_pending()
+    time.sleep(1)
+shedule ()
