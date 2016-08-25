@@ -1,0 +1,24 @@
+At 2016-08-25 16:00:10 start log(<__main__.FunctionLog object at 0x7f870b33df98>,)
+END
+
+log(<__main__.FunctionLog object at 0x7f870b33df98>,)
+At 2016-08-25 16:00:20 start log(<__main__.FunctionLog object at 0x7f870b33df98>,)
+END
+
+log(<__main__.FunctionLog object at 0x7f870b33df98>,)
+At 2016-08-25 16:00:30 start log(<__main__.FunctionLog object at 0x7f870b33df98>,)
+END
+
+log(<__main__.FunctionLog object at 0x7f870b33df98>,)
+At 2016-08-25 16:01:26 start log(<__main__.FunctionLog object at 0x7fa378977f98>,)
+END
+
+log(<__main__.FunctionLog object at 0x7fa378977f98>,)
+At 2016-08-25 16:01:36 start log(<__main__.FunctionLog object at 0x7fa378977f98>,)
+END
+
+log(<__main__.FunctionLog object at 0x7fa378977f98>,)
+At 2016-08-25 16:01:46 start log(<__main__.FunctionLog object at 0x7fa378977f98>,)
+END
+
+log(<__main__.FunctionLog object at 0x7fa378977f98>,)
